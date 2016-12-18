@@ -1,13 +1,57 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<title>My Links Page</title>
-	</head>
-	<body>
-		<ul>
-        		<li><a href="/firsturl.html">First Page</a></li>
-        		<li><a href="/secondurl.html">Second Page</a></li>
-        		<li><a href="/thirdurl.html">Third Page</a></li>
-    		</ul>
-	</body>
-</html>
+    <head>
+        <title>test</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+<body>
+    <a href="http://jquery.com/"></a>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.marquee/1.3.9/jquery.marquee.min.js">    </script>
+    <script type="text/javascript" src="http://rawgithub.com/tobia/Pause/master/jquery.pause.js"></script>
+<div class="marquee" data-duplicated="false" data-direction="up" data-duration="30000"style="text-align:center">
+  <div>╭━━━┳━━━━┳━━━┳━━━╮╭╮╭╮╭┳━━━┳━━━┳━━━╮</div>
+  <div>┃╭━╮┃╭╮╭╮┃╭━╮┃╭━╮┃┃┃┃┃┃┃╭━╮┃╭━╮┃╭━╮┃</div>
+  <div>┃╰━━╋╯┃┃╰┫┃╱┃┃╰━╯┃┃┃┃┃┃┃┃╱┃┃╰━╯┃╰━━╮</div>
+  <div>╰━━╮┃╱┃┃╱┃╰━╯┃╭╮╭╯┃╰╯╰╯┃╰━╯┃╭╮╭┻━━╮┃</div>
+  <div>┃╰━╯┃╱┃┃╱┃╭━╮┃┃┃╰╮╰╮╭╮╭┫╭━╮┃┃┃╰┫╰━╯┃</div>
+  <div>╰━━━╯╱╰╯╱╰╯╱╰┻╯╰━╯╱╰╯╰╯╰╯╱╰┻╯╰━┻━━━╯</div>
+  <div>╭━━━━┳━━┳━━━╮╭━━━┳━━┳╮╱╱╭━━━┳━━━━╮</div>
+  <div>┃╭╮╭╮┣┫┣┫╭━━╯┃╭━╮┣┫┣┫┃╱╱┃╭━╮┃╭╮╭╮┃</div>
+  <div>╰╯┃┃╰╯┃┃┃╰━━╮┃╰━╯┃┃┃┃┃╱╱┃┃╱┃┣╯┃┃╰╯</div>
+  <div>╱╱┃┃╱╱┃┃┃╭━━╯┃╭━━╯┃┃┃┃╱╭┫┃╱┃┃╱┃┃╱╱</div>
+  <div>╱╱┃┃╱╭┫┣┫╰━━╮┃┃╱╱╭┫┣┫╰━╯┃╰━╯┃╱┃┃╱╱</div>
+  <div>╱╱╰╯╱╰━━┻━━━╯╰╯╱╱╰━━┻━━━┻━━━╯╱╰╯╱╱</div>
+  <div>A Star Wars Game</div>
+  <div>By Hunter Johnson</div>
+  <p></p>
+  <div>It is four years before the Battle Of Yavin. You are a tie pilot, </div>
+  <div>ace of the Empire. You patrol planets and dock on a Ton-Flak class</div>
+  <div>carrier. You are the commander.</div><div></div>
+  <div>One day, in orbit above Lothal, a planet with known rebel sympathisers,</div>
+  <div>Four A-wings and a CR90 Corvette, named the "Tantive 3", jump in.</div>
+  <div>Your Comms Specialist suggests to COMMUNICATE with them and force</div>
+  <div>them to state their business, while your most trusted pilot says that</div>
+  <div>they are obviously rebels and that you should order an ATTACK. What do</div>
+  <div>you do?</div>
+  <button onclick="com()">COMMUNICATE</button><button onclick="atk()">ATTACK</button><p></p>
+  <div id="1"></div>
+
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+function com() {document.getElementById("1").innerHTML="<div>You tell them to identify themselves. They say that they are Alderaan</div><div>citizens with relief supplies. You say that there were no authorizations</div><div>for this. You state that you will board them. The A-wings break formation.</div><div>You and three other pilots hop in your TIE fighters. Who do you engage </div><div>first?</div><button onclick='cor()'>THE CORVETTE</button><button onclick='awing()'>THE A-WINGS</button><p></p><div id='2'></div>";
+
+}
+
+function atk() {document.getElementById("1").innerHTML="<div>You order your squadron to attack. The A-Wing pilots are taken by </div><div>surprise, but they were prepared. The weakest one was blasted quickly, </div><div>but then one of your pilots went down. Two more A-Wings go down. One </div><div>more Tie. Your best friend yells out that he is being tailed, and needs </div><div>help, but you see a perfect opening on the corvette. What do you do?</div><button onclick='cor()'>THE CORVETTE</button><button onclick='awing()'>THE A-WINGS</button><p></p><div id='2'></div>";}
+
+function cor() {document.getElementById("2").innerHTML="<div>You order your squadron to attack the Corvette. You hold a tight</div><div>formation, but the A-Wings tear you apart. You Die.</div><p></p><div>╭━━━╮╱╱╱╱╱╱╱╱╱╭━━━╮╱╱╱╱╱╱╱╱</div><div>┃╭━╮┃╱╱╱╱╱╱╱╱╱┃╭━╮┃╱╱╱╱╱╱╱╱</div><div>┃┃╱╰╋━━┳╮╭┳━━╮┃┃╱┃┣╮╭┳━━┳━╮</div><div>┃┃╭━┫╭╮┃╰╯┃┃━┫┃┃╱┃┃╰╯┃┃━┫╭╯</div><div>┃╰┻━┃╭╮┃┃┃┃┃━┫┃╰━╯┣╮╭┫┃━┫┃╱</div><div>╰━━━┻╯╰┻┻┻┻━━╯╰━━━╯╰╯╰━━┻╯╱</div>";}
+
+function awing() {document.getElementById("2").innerHTML="<div>You tell your squadron to attack the A-Wings. You have a long, hard</div> <div>battle, picking off a few A-Wings, but they won. You Died. </div><p></p><div>╭━━━╮╱╱╱╱╱╱╱╱╱╭━━━╮╱╱╱╱╱╱╱╱</div><div>┃╭━╮┃╱╱╱╱╱╱╱╱╱┃╭━╮┃╱╱╱╱╱╱╱╱</div><div>┃┃╱╰╋━━┳╮╭┳━━╮┃┃╱┃┣╮╭┳━━┳━╮</div><div>┃┃╭━┫╭╮┃╰╯┃┃━┫┃┃╱┃┃╰╯┃┃━┫╭╯</div><div>┃╰┻━┃╭╮┃┃┃┃┃━┫┃╰━╯┣╮╭┫┃━┫┃╱</div><div>╰━━━┻╯╰┻┻┻┻━━╯╰━━━╯╰╯╰━━┻╯╱</div>";}
+</script>
+
+<br/>
+</body>
