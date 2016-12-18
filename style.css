@@ -1,0 +1,9 @@
+.marquee {
+  width: 1000px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
+no {
+    display: none;
+}
